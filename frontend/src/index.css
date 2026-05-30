@@ -1,0 +1,35 @@
+@import "leaflet/dist/leaflet.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #101820;
+  background: #efe4d0;
+  font-family: "Avenir Next", "Nunito Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #d7e1d8;
+}
+
+.numbered-marker {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  border: 2px solid #f6efe3;
+  background: #101820;
+  color: #f6efe3;
+  font-weight: 800;
+  box-shadow: 0 8px 24px rgba(16, 24, 32, 0.35);
+}
